@@ -1,0 +1,143 @@
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] Logging to bulkloader-log-20100310.093730
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] Throttling transfers:
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] Bandwidth: 250000 bytes/second
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] HTTP connections: 8/second
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] Entities inserted/fetched/modified: 20/second
+[INFO     2010-03-10 09:37:30,750 bulkloader.py] Opening database: bulkloader-progress-20100310.093730.sql3
+[INFO     2010-03-10 09:37:31,157 bulkloader.py] Opening database: bulkloader-results-20100310.093730.sql3
+[DEBUG    2010-03-10 09:37:31,424 adaptive_thread_pool.py] [WorkerThread-0] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,426 adaptive_thread_pool.py] [WorkerThread-1] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,427 adaptive_thread_pool.py] [WorkerThread-2] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,428 adaptive_thread_pool.py] [WorkerThread-3] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,430 adaptive_thread_pool.py] [WorkerThread-4] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,431 adaptive_thread_pool.py] [WorkerThread-5] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,434 adaptive_thread_pool.py] [WorkerThread-6] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,434 adaptive_thread_pool.py] [WorkerThread-7] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,437 adaptive_thread_pool.py] [WorkerThread-8] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,437 adaptive_thread_pool.py] [WorkerThread-9] WorkerThread: started
+[DEBUG    2010-03-10 09:37:31,438 bulkloader.py] Configuring remote_api. url_path = /remote_api, servername = localhost:8081
+[DEBUG    2010-03-10 09:37:55,971 bulkloader.py] Bulkloader using app_id: khanexercises
+[INFO     2010-03-10 09:37:55,971 bulkloader.py] Connecting to localhost:8081/remote_api
+[DEBUG    2010-03-10 09:37:57,062 bulkloader.py] [Thread-11] ExportProgressThread: started
+[DEBUG    2010-03-10 09:37:57,062 bulkloader.py] [Thread-12] DataSourceThread: started
+[INFO     2010-03-10 09:37:57,062 bulkloader.py] Downloading kinds: ['VideoPlaylist']
+[DEBUG    2010-03-10 09:37:57,142 bulkloader.py] [Thread-12] DataSourceThread: exiting
+[DEBUG    2010-03-10 09:37:57,176 bulkloader.py] Waiting for worker threads to finish...
+[DEBUG    2010-03-10 09:37:57,190 adaptive_thread_pool.py] [WorkerThread-0] Got work item VideoPlaylist-ASC[None-None]
+[DEBUG    2010-03-10 09:37:58,775 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.023
+[DEBUG    2010-03-10 09:37:58,775 bulkloader.py] Entities transferred total: 100
+[DEBUG    2010-03-10 09:37:58,901 bulkloader.py] delete: delta=0.002
+[DEBUG    2010-03-10 09:37:59,076 bulkloader.py] [WorkerThread-0] VideoPlaylist-ASC[None-None] Transferred 100 entities in 1.5 seconds
+[DEBUG    2010-03-10 09:37:59,078 adaptive_thread_pool.py] Increasing active thread count to 2
+[DEBUG    2010-03-10 09:37:59,081 adaptive_thread_pool.py] [WorkerThread-8] Got work item VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-None]
+[DEBUG    2010-03-10 09:38:00,864 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.024
+[DEBUG    2010-03-10 09:38:00,864 bulkloader.py] Entities transferred total: 200
+[DEBUG    2010-03-10 09:38:01,000 bulkloader.py] delete: delta=0.002
+[DEBUG    2010-03-10 09:38:01,194 adaptive_thread_pool.py] [WorkerThread-0] Got work item VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3993L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:01,288 bulkloader.py] [WorkerThread-8] VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-None] Transferred 100 entities in 1.6 seconds
+[DEBUG    2010-03-10 09:38:01,289 adaptive_thread_pool.py] Increasing active thread count to 3
+[DEBUG    2010-03-10 09:38:01,292 adaptive_thread_pool.py] [WorkerThread-3] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3993L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')(
+[DEBUG    2010-03-10 09:38:03,085 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.024
+[DEBUG    2010-03-10 09:38:03,085 bulkloader.py] Entities transferred total: 300
+[DEBUG    2010-03-10 09:38:03,197 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:03,404 adaptive_thread_pool.py] [WorkerThread-8] Got work item VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3609L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:03,464 bulkloader.py] [WorkerThread-0] VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3993L, _app=u'khanexercises')] Transferred 100 entities in 1.7 seconds
+[DEBUG    2010-03-10 09:38:03,466 adaptive_thread_pool.py] Increasing active thread count to 4
+[DEBUG    2010-03-10 09:38:03,467 adaptive_thread_pool.py] [WorkerThread-0] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3609L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3894L, _app=u'khanexercises')(
+[DEBUG    2010-03-10 09:38:03,684 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.041
+[DEBUG    2010-03-10 09:38:03,684 bulkloader.py] Entities transferred total: 400
+[DEBUG    2010-03-10 09:38:03,834 bulkloader.py] delete: delta=0.002
+[DEBUG    2010-03-10 09:38:04,180 adaptive_thread_pool.py] [WorkerThread-9] Got work item VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 4093L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4377L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:04,309 bulkloader.py] [WorkerThread-3] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3993L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')( Transferred 100 entities in 2.0 seconds
+[DEBUG    2010-03-10 09:38:04,311 adaptive_thread_pool.py] Increasing active thread count to 5
+[DEBUG    2010-03-10 09:38:04,312 adaptive_thread_pool.py] [WorkerThread-3] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4377L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:05,188 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.025
+[DEBUG    2010-03-10 09:38:05,188 bulkloader.py] Entities transferred total: 500
+[DEBUG    2010-03-10 09:38:05,358 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:05,625 adaptive_thread_pool.py] [WorkerThread-1] Got work item VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3417L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:05,687 bulkloader.py] [WorkerThread-8] VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3609L, _app=u'khanexercises')] Transferred 100 entities in 1.6 seconds
+[DEBUG    2010-03-10 09:38:05,687 adaptive_thread_pool.py] Increasing active thread count to 6
+[DEBUG    2010-03-10 09:38:05,688 adaptive_thread_pool.py] [WorkerThread-5] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3417L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3510L, _app=u'khanexercises')(
+[DEBUG    2010-03-10 09:38:05,822 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.025
+[DEBUG    2010-03-10 09:38:05,822 bulkloader.py] Entities transferred total: 600
+[DEBUG    2010-03-10 09:38:05,947 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:06,214 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.027
+[DEBUG    2010-03-10 09:38:06,216 bulkloader.py] Entities transferred total: 700
+[DEBUG    2010-03-10 09:38:06,460 bulkloader.py] delete: delta=0.001
+[DEBUG    2010-03-10 09:38:06,799 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.046
+[DEBUG    2010-03-10 09:38:06,801 bulkloader.py] Entities transferred total: 800
+[DEBUG    2010-03-10 09:38:06,802 adaptive_thread_pool.py] [WorkerThread-8] Got work item VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 3709L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3801L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:07,069 bulkloader.py] delete: delta=0.001
+[DEBUG    2010-03-10 09:38:07,642 bulkloader.py] [WorkerThread-0] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3609L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3894L, _app=u'khanexercises')( Transferred 100 entities in 2.0 seconds
+[DEBUG    2010-03-10 09:38:07,642 adaptive_thread_pool.py] Increasing active thread count to 7
+[DEBUG    2010-03-10 09:38:07,644 adaptive_thread_pool.py] [WorkerThread-2] Got work item VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 4093L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4149L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:07,644 adaptive_thread_pool.py] [WorkerThread-4] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3801L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3894L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:08,059 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.039
+[DEBUG    2010-03-10 09:38:08,059 bulkloader.py] Entities transferred total: 893
+[DEBUG    2010-03-10 09:38:08,391 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:08,542 bulkloader.py] [WorkerThread-1] VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 3324L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3417L, _app=u'khanexercises')] Transferred 94 entities in 1.5 seconds
+[DEBUG    2010-03-10 09:38:08,543 adaptive_thread_pool.py] Increasing active thread count to 8
+[DEBUG    2010-03-10 09:38:08,546 adaptive_thread_pool.py] [WorkerThread-1] Got work item VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')(
+[DEBUG    2010-03-10 09:38:08,724 bulkloader.py] [WorkerThread-9] VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 4093L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4377L, _app=u'khanexercises')] Transferred 100 entities in 1.6 seconds
+[DEBUG    2010-03-10 09:38:08,726 adaptive_thread_pool.py] Increasing active thread count to 9
+[DEBUG    2010-03-10 09:38:08,726 adaptive_thread_pool.py] [WorkerThread-9] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4149L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4206L, _app=u'khanexercises')(
+[DEBUG    2010-03-10 09:38:09,017 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.031
+[DEBUG    2010-03-10 09:38:09,017 bulkloader.py] Entities transferred total: 985
+[DEBUG    2010-03-10 09:38:09,266 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:09,365 bulkloader.py] [WorkerThread-5] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3417L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3510L, _app=u'khanexercises')( Transferred 92 entities in 1.6 seconds
+[DEBUG    2010-03-10 09:38:09,367 adaptive_thread_pool.py] Increasing active thread count to 10
+[DEBUG    2010-03-10 09:38:09,512 bulkloader.py] [WorkerThread-3] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4377L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')] Transferred 100 entities in 1.8 seconds
+[DEBUG    2010-03-10 09:38:09,515 adaptive_thread_pool.py] [WorkerThread-3] Got work item VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')]
+[DEBUG    2010-03-10 09:38:21,220 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.010
+[DEBUG    2010-03-10 09:38:21,220 bulkloader.py] Entities transferred total: 1024
+[DEBUG    2010-03-10 09:38:21,365 bulkloader.py] delete: delta=0.001
+[DEBUG    2010-03-10 09:38:21,431 bulkloader.py] [WorkerThread-3] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4662L, _app=u'khanexercises')] Transferred 40 entities in 11.2 seconds
+[DEBUG    2010-03-10 09:38:21,431 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.000
+[DEBUG    2010-03-10 09:38:21,431 bulkloader.py] Entities transferred total: 1024
+[DEBUG    2010-03-10 09:38:21,433 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:21,520 bulkloader.py] [WorkerThread-1] VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4582L, _app=u'khanexercises')( Transferred 0 entities in 11.8 seconds
+[DEBUG    2010-03-10 09:38:21,907 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.023
+[DEBUG    2010-03-10 09:38:21,907 bulkloader.py] Entities transferred total: 1116
+[DEBUG    2010-03-10 09:38:22,030 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:22,108 bulkloader.py] [WorkerThread-4] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 3801L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3894L, _app=u'khanexercises')] Transferred 93 entities in 12.9 seconds
+[DEBUG    2010-03-10 09:38:22,109 adaptive_thread_pool.py] Decreasing the number of active threads to 9
+[DEBUG    2010-03-10 09:38:22,496 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.023
+[DEBUG    2010-03-10 09:38:22,496 bulkloader.py] Entities transferred total: 1208
+[DEBUG    2010-03-10 09:38:22,642 bulkloader.py] delete: delta=0.000
+[DEBUG    2010-03-10 09:38:22,732 bulkloader.py] [WorkerThread-8] VideoPlaylist-DESC(datastore_types.Key.from_path(u'VideoPlaylist', 3709L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 3801L, _app=u'khanexercises')] Transferred 92 entities in 14.6 seconds
+[DEBUG    2010-03-10 09:38:22,732 adaptive_thread_pool.py] Decreasing the number of active threads to 8
+[DEBUG    2010-03-10 09:38:22,809 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.015
+[DEBUG    2010-03-10 09:38:22,809 bulkloader.py] Entities transferred total: 1264
+[DEBUG    2010-03-10 09:38:22,986 bulkloader.py] delete: delta=0.001
+[DEBUG    2010-03-10 09:38:23,065 bulkloader.py] [WorkerThread-2] VideoPlaylist-DESC[datastore_types.Key.from_path(u'VideoPlaylist', 4093L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4149L, _app=u'khanexercises')] Transferred 57 entities in 14.0 seconds
+[DEBUG    2010-03-10 09:38:23,065 adaptive_thread_pool.py] Decreasing the number of active threads to 7
+[DEBUG    2010-03-10 09:38:23,194 bulkloader.py] bulkloader-results-20100310.093730.sql3 insert: delta=0.015
+[DEBUG    2010-03-10 09:38:23,194 bulkloader.py] Entities transferred total: 1320
+[DEBUG    2010-03-10 09:38:23,436 bulkloader.py] delete: delta=0.001
+[DEBUG    2010-03-10 09:38:23,621 bulkloader.py] [WorkerThread-9] VideoPlaylist-ASC(datastore_types.Key.from_path(u'VideoPlaylist', 4149L, _app=u'khanexercises')-datastore_types.Key.from_path(u'VideoPlaylist', 4206L, _app=u'khanexercises')( Transferred 56 entities in 13.3 seconds
+[DEBUG    2010-03-10 09:38:23,621 adaptive_thread_pool.py] Decreasing the number of active threads to 6
+[DEBUG    2010-03-10 09:38:23,641 adaptive_thread_pool.py] [WorkerThread-2] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,641 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,641 adaptive_thread_pool.py] [WorkerThread-1] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,641 adaptive_thread_pool.py] [WorkerThread-8] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,641 adaptive_thread_pool.py] [WorkerThread-9] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,645 adaptive_thread_pool.py] [WorkerThread-3] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,658 adaptive_thread_pool.py] [WorkerThread-6] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,684 adaptive_thread_pool.py] [WorkerThread-5] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,684 adaptive_thread_pool.py] [WorkerThread-4] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,684 adaptive_thread_pool.py] [WorkerThread-0] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,686 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,687 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,687 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,687 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,687 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,688 adaptive_thread_pool.py] [WorkerThread-7] WorkerThread: exiting
+[DEBUG    2010-03-10 09:38:23,688 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,690 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,690 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,690 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2010-03-10 09:38:23,693 bulkloader.py] Waiting for progress_thread to terminate...
+[DEBUG    2010-03-10 09:38:23,734 bulkloader.py] [Thread-11] ExportProgressThread: exiting
+[DEBUG    2010-03-10 09:38:23,756 bulkloader.py] ... done.
+[INFO     2010-03-10 09:38:23,759 bulkloader.py] Have 1320 entities, 0 previously transferred
+[INFO     2010-03-10 09:38:23,760 bulkloader.py] 1320 entities (251019 bytes) transferred in 53.0 seconds

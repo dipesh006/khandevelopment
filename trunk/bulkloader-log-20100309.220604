@@ -1,0 +1,42 @@
+[INFO     2010-03-09 22:06:04,424 bulkloader.py] Logging to bulkloader-log-20100309.220604
+[INFO     2010-03-09 22:06:04,424 bulkloader.py] Throttling transfers:
+[INFO     2010-03-09 22:06:04,424 bulkloader.py] Bandwidth: 250000 bytes/second
+[INFO     2010-03-09 22:06:04,424 bulkloader.py] HTTP connections: 8/second
+[INFO     2010-03-09 22:06:04,424 bulkloader.py] Entities inserted/fetched/modified: 20/second
+[INFO     2010-03-09 22:06:04,427 bulkloader.py] Opening database: bulkloader-progress-20100309.220604.sql3
+[INFO     2010-03-09 22:06:04,734 bulkloader.py] Opening database: bulkloader-results-20100309.220604.sql3
+[DEBUG    2010-03-09 22:06:04,993 adaptive_thread_pool.py] [WorkerThread-0] WorkerThread: started
+[DEBUG    2010-03-09 22:06:04,993 adaptive_thread_pool.py] [WorkerThread-1] WorkerThread: started
+[DEBUG    2010-03-09 22:06:04,996 adaptive_thread_pool.py] [WorkerThread-2] WorkerThread: started
+[DEBUG    2010-03-09 22:06:04,996 adaptive_thread_pool.py] [WorkerThread-3] WorkerThread: started
+[DEBUG    2010-03-09 22:06:04,999 adaptive_thread_pool.py] [WorkerThread-4] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,000 adaptive_thread_pool.py] [WorkerThread-5] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,002 adaptive_thread_pool.py] [WorkerThread-6] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,003 adaptive_thread_pool.py] [WorkerThread-7] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,005 adaptive_thread_pool.py] [WorkerThread-8] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,006 adaptive_thread_pool.py] [WorkerThread-9] WorkerThread: started
+[DEBUG    2010-03-09 22:06:05,006 bulkloader.py] Configuring remote_api. url_path = /remote_api, servername = localhost:8081
+[DEBUG    2010-03-09 22:06:12,497 bulkloader.py] Bulkloader using app_id: khanexercises
+[INFO     2010-03-09 22:06:12,497 bulkloader.py] Connecting to localhost:8081/remote_api
+[ERROR    2010-03-09 22:06:13,589 bulkloader.py] Exception during authentication
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Google\google_appengine\google\appengine\tools\bulkloader.py", line 3158, in Run
+    self.request_manager.Authenticate()
+  File "C:\Program Files (x86)\Google\google_appengine\google\appengine\tools\bulkloader.py", line 1169, in Authenticate
+    remote_api_stub.MaybeInvokeAuthentication()
+  File "C:\Program Files (x86)\Google\google_appengine\google\appengine\ext\remote_api\remote_api_stub.py", line 539, in MaybeInvokeAuthentication
+    datastore_stub._server.Send(datastore_stub._path, payload=None)
+  File "C:\Program Files (x86)\Google\google_appengine\google\appengine\tools\appengine_rpc.py", line 346, in Send
+    f = self.opener.open(req)
+  File "C:\Python26\lib\urllib2.py", line 395, in open
+    response = meth(req, response)
+  File "C:\Python26\lib\urllib2.py", line 508, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python26\lib\urllib2.py", line 433, in error
+    return self._call_chain(*args)
+  File "C:\Python26\lib\urllib2.py", line 367, in _call_chain
+    result = func(*args)
+  File "C:\Python26\lib\urllib2.py", line 516, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 404: Not Found
+[INFO     2010-03-09 22:06:13,595 bulkloader.py] Authentication Failed
